@@ -1,0 +1,401 @@
+/************************
+ google-font-link
+ (font-name:poppins) 
+ ************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffffd2;
+}
+
+/*************************
+ REUSEABLE - ELEMENTS   
+ ************************/
+
+ .wrapper{
+     max-width: 1440px;
+     margin: auto;
+ }
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/*************************
+ HEADER - SECTION - STYLES   
+ ************************/
+
+ header{
+     background-color:#2D25A0;
+     height: 100vh;
+ }
+.header-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text-area{
+    width: 485px;
+    height: 230px;
+    margin-top: 205px;
+}
+.text-area h2{
+    font-size: 64px;
+    color: white;
+    margin-bottom: 20px;
+}
+.text-area a{
+    height: 44px;
+    width: 168px;
+    left: 156px;
+    top: 464px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 150px;
+    font-family: sans-serif;
+}
+.text-area a .font-cls{
+    padding-left: 14px;
+}
+.img-area img{
+    Width :556px;
+    Height:438px; 
+    margin-Top:153px; 
+    margin-bottom: 90px;
+}
+.img-area img:hover{
+    transform: scale(1.1) rotate(25deg);
+    transition: transform 2s ease-in-out;
+}
+
+
+/*************************
+ PLAYER - SECTION - STYLES   
+ ************************/
+
+.players-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px; 
+}
+.player{
+    width: 330px;
+    height: 474px;
+    margin-bottom: 25px;
+    background-color:white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.player h3{
+    font-size: 28px;
+    line-height: 40px;
+}
+.player p{
+    font-size: 16px;
+    line-height:26px;
+    color: #6C6C6C;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+.player h3,p{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/*************************
+ BIOGRAPHY - SECTION - STYLES   
+ ************************/
+
+ .biography{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin-top: 50px;
+ }
+ .bio-text-area h2{
+     color: black;
+     font-size: 38px;
+     margin-right: 85px;
+     margin-top: 50px;
+     font-family: sans-serif;
+     margin-bottom: 20px;
+}
+.bio-text-area p{
+    color: #6C6C6C;;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.7;
+    margin-right: 50px;
+    margin-left: 0;
+}
+#view{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+ .bio-img-area img{
+     background-color: red;
+     Width: 500px;
+     Height: 400px; 
+     margin-Top:53px;
+     margin-left: 20px;
+ }
+ .bio-text-area a{
+    height: 44px;
+    width: 168px;
+    left: 156px;
+    top: 464px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 150px;
+    font-family: sans-serif;
+}
+.bio-text-area a .font-cls{
+    padding-left: 14px;
+}
+
+/*************************
+ JOIN - SECTION - STYLES   
+ ************************/
+
+ .join-now{
+     display: grid;
+     grid-template-columns: 1fr;
+     margin-top: 100px;
+     margin-left: 310px;
+ }
+.join-now img{
+    width: 350px;
+    height: 350px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+}
+.join-area-description h2{
+    margin-left: 250px; 
+}
+.join-area-description p{
+    width: 400px;
+    height: 100px;
+    color: #6C6C6C;;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 2;
+    margin-left: 200px;
+
+}
+.join-area-description a{
+    height: 44px;
+    width: 168px;
+    left: 156px;
+    top: 464px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 150px;
+    font-family: sans-serif;
+}
+.join-area-description a .font-cls{
+    padding-left: 14px;
+}
+#join-btn{
+    margin-left: 335px;
+}
+
+/*******************************
+ TOP 5 PLAYERS - SECTION - STYLES   
+ ******************************/
+
+ #top-players h2{
+     text-align: center;
+     margin-top: 60px;
+     margin-bottom: 40px;
+ }
+ .top-player{
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+ }
+.top-player-img img{
+    width: 220px;
+    height: 230px;
+}
+
+/*************************
+ FOOTER - SECTION - STYLES   
+ ************************/
+
+.footer-area{
+    width: 483px;
+    height: 313px;
+}
+.footer-img{
+    margin-top: 100px;
+}
+.footer-img img{
+    width: 420px;
+    height:110px ;
+    margin-top: 20px;
+}
+.social-icon-area{
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+    height: 32px;
+    align-items: center;
+}
+.icon{
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 22px;
+    background-color:rgba(202, 193, 193, 0.918);
+    color: rgb(99, 95, 95);
+    margin-right: 10px;
+    border-radius: 29px;
+    margin-top: 30px;
+}
+.copyright-area p{
+    margin-top: 40px;
+    font-size: 22px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+/****************************
+ RESPONSIVE - MOBILE - DEVICE  
+ ****************************/
+
+@media only screen and (max-width:480px) {
+.wrapper{
+    max-width: 490px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.header-section{
+    grid-template-columns: 1fr; 
+}
+.text-area{
+    width: 100%;
+    height: 130px;
+    margin-top: 205px;
+    text-align: center;
+}
+.text-area h2 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: -156px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.img-area img {
+    Width: 95%;
+    Height: 270px;
+    margin-Top: -100px;
+    margin-bottom: 90px;
+    
+}
+/****** players-card-area *********/
+.players-card{
+    display: grid;
+    grid-template-columns:1fr;
+    margin-top: 50px; 
+}
+.player {
+    width: 100%;
+}
+.player img{
+    width: 93%;
+}
+
+/******** biography-area *******/
+.biography{
+    display: grid;
+    grid-template-columns:1fr;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.bio-img-area img{
+    width: 93%;
+    margin-left: 0;
+}
+
+/********* Join-area **********/
+.join-now{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.join-now img{
+    width: 93%;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+.join-area-description {
+    margin-left: -155px;
+}
+.join-area-description h2{
+    margin-left: 250px; 
+}
+.join-area-description p{
+    width: 400px;
+    height: 100px;
+    color: #6C6C6C;;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 2;
+    margin-left: 200px;
+
+}
+
+/**********top-player-area ********/
+.top-player{
+    grid-template-columns:1fr;
+}
+.top-player-img img{
+   width: 100%;
+   margin-left: 15px;
+   margin-bottom: 20px;
+}
+
+/******** footer-area *********/
+.icon{
+    padding: 8px 8px;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.footer-area{
+    width: 100%;
+}
+.footer-img img{
+    width: 98%;
+}
+
+
+}
+
+
+
+
+
+
